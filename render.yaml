@@ -1,10 +1,9 @@
 services:
   - type: web
     name: clinic-system
-    env: php
+    env: docker
     plan: free
-    buildCommand: "php -v"
-    startCommand: "php -S 0.0.0.0:$PORT -t ."
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: PHP_VERSION
         value: 8.2
