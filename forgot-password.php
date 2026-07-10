@@ -320,13 +320,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['check_email'])) {
                 </div>
             </form>
             
-            <div class="demo-accounts">
-                <h4><i class="fas fa-flask"></i> Demo Accounts</h4>
-                <p><strong>Admin:</strong> admin@clinic.com</p>
-                <p><strong>Doctor:</strong> dr.smith@clinic.com</p>
-                <p><strong>Patient:</strong> john@example.com</p>
-                <p style="margin-top: 8px; color: #666;">All passwords will be reset to: <strong>password123</strong></p>
-            </div>
+            
         </div>
     </div>
 </body>
