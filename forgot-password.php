@@ -300,7 +300,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['check_email'])) {
             
             <div class="info-box">
                 <i class="fas fa-info-circle"></i>
-                <strong>Note:</strong> For demo purposes, enter any of the test account emails below.
+                <strong>Note:</strong> Enter your Email Address for your account.
             </div>
             
             <form method="POST" action="">
